@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "emitDeclarationOnly": true,  // Solo emite archivos de declaración
+      "declarationDir": "./package", // Carpeta de salida para archivos .d.ts
+      "outDir": "./package",
+      "rootDir": "./src",
+      "module": "ESNext",
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
+  
