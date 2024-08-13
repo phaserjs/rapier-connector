@@ -8,6 +8,8 @@ This library allows you to easily integrate RAPIER physics with Phaser 3, making
 - Support for various collider shapes: Boxes, spheres, capsules, triangles, etc.
 - Debugging: Enable visual collider rendering for easier debugging.
 
+[Examples](https://phaser.io/sandbox/full/GcQ31KLH)
+
 ## Installation
 First, install the required dependencies:
 ```bash

@@ -1,29 +1,34 @@
 {
-  "name": "rapier-connector",
-  "description": "Phaser connector for Rapier physics engine",
-  "version": "0.0.3",
-  "main": "./package/index.js",
-  "module": "./package/index.js",
-  "types": "./package/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./package/index.js",
-      "require": "./package/index.cjs.js"
+    "name": "@phaserjs/rapier-connector",
+    "description": "Phaser connector for Rapier physics engine",
+    "version": "0.0.2",
+    "main": "./package/index.js",
+    "module": "./package/index.js",
+    "types": "./package/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./package/index.js",
+            "require": "./package/index.cjs.js"
+        }
+    },
+    "files": [
+        "package"
+    ],
+    "scripts": {
+        "build": "node esbuild.config.js && tsc"
+    },
+    "keywords": [
+        "rapier",
+        "phaser3",
+        "connector",
+        "physics"
+    ],
+    "author": "Gammafp",
+    "license": "MIT",
+    "devDependencies": {
+        "@dimforge/rapier2d-compat": "^0.14.0",
+        "esbuild": "^0.23.0",
+        "phaser": "^3.80.1",
+        "typescript": "^5.5.4"
     }
-  },
-  "files": [
-    "package"
-  ],
-  "scripts": {
-    "build": "node esbuild.config.js && tsc"
-  },
-  "keywords": ["rapier", "phaser3", "connector", "physics"],
-  "author": "Gammafp",
-  "license": "MIT",
-  "devDependencies": {
-    "@dimforge/rapier2d-compat": "^0.14.0",
-    "esbuild": "^0.23.0",
-    "phaser": "^3.80.1",
-    "typescript": "^5.5.4"
-  }
 }
