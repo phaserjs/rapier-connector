@@ -10,6 +10,8 @@ This library allows you to easily integrate RAPIER physics with Phaser 3, making
 
 [Examples](https://phaser.io/sandbox/full/GcQ31KLH)
 
+![Example](https://i.gyazo.com/0e03de1292b8415ffdb4c571c87e081b.png)
+
 ## Installation
 First, install the required dependencies:
 ```bash
