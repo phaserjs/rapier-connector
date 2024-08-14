@@ -1,6 +1,6 @@
 # Rapier Plugin for Phaser 3
 
-This library allows you to easily integrate the [Rapier](https://rapier.rs) physics library with [Phaser 3](https://phaser.io), making it simple to create and manage rigid bodies within a physical world in Phaser.
+This connector plugin allows you to easily integrate the [Rapier](https://rapier.rs) physics library with [Phaser 3](https://phaser.io), making it simple to create and manage rigid bodies within a physical world in Phaser.
 
 For a template that directly integrates Rapier and Phaser without using a plugin please see the [template-rapier repository](https://github.com/phaserjs/template-rapier).
 
