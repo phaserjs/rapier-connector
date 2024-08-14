@@ -1,6 +1,6 @@
 {
     "name": "@phaserjs/rapier-connector",
-    "description": "Phaser connector for Rapier physics engine",
+    "description": "Easily use the Rapier physics library with Phaser 3",
     "version": "1.0.0",
     "main": "./package/index.js",
     "module": "./package/index.js",
@@ -23,8 +23,9 @@
         "connector",
         "physics"
     ],
-    "author": "Gammafp",
+    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
     "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
     "devDependencies": {
         "@dimforge/rapier2d-compat": "^0.14.0",
         "esbuild": "^0.23.0",
