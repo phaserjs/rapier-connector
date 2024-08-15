@@ -15,7 +15,7 @@ For a template that directly integrates Rapier and Phaser without using a plugin
 
 You can find 15 different code examples of how to use the Rapier Connector in this [Rapier Phaser Sandbox](https://phaser.io/sandbox/full/GcQ31KLH)
 
-[![Example Image](examples.png)](https://phaser.io/sandbox/full/GcQ31KLH)
+[![Example Image](https://raw.githubusercontent.com/phaserjs/rapier-connector/main/examples.png)](https://phaser.io/sandbox/full/GcQ31KLH)
 
 ## Installation
 
