@@ -1,10 +1,14 @@
 {
     "name": "@phaserjs/rapier-connector",
     "description": "Easily use the Rapier physics library with Phaser 3",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "./package/index.js",
     "module": "./package/index.js",
     "types": "./package/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phaserjs/rapier-connector.git"
+      },
     "exports": {
         ".": {
             "import": "./package/index.js",
