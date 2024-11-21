@@ -22,7 +22,7 @@ You can find 15 different code examples of how to use the Rapier Connector in th
 First, install the required dependencies via npm:
 
 ```bash
-npm i rapier-connector
+npm i @phaserjs/rapier-connector
 ```
 
 ## Usage
